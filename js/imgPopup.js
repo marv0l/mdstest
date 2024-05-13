@@ -1,4 +1,4 @@
-document.querySelectorAll('.atr img').forEach(image =>{
+document.querySelectorAll('.atr .image img').forEach(image =>{
     image.onclick = () =>{
         document.querySelector('.img-popup').style.display = 'block';
         document.querySelector('.img-popup img').src = image.getAttribute('src');
